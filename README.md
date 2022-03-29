@@ -1,5 +1,7 @@
 # ament_cuda
 
+:warning: *current code doesn't include CUDA enablers and only relies on VPI for first demonstrators which is shipped in the rootfs. Future CMake macros should enable CUDA cross-compilation* :warning:
+
 CMake macros and utilities to include NVIDIA CUDA into the ROS 2 build system (ament) and its development flows.
 
 **NOTE**: See *`REP-2008`: ROS 2 Hardware Acceleration Architecture and Conventions* ([pending PR](https://github.com/ros-infrastructure/rep/pull/324)) for more details on how `ament_cuda` fits with the rest of the hardware acceleration packages.
